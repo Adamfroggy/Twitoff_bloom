@@ -1,7 +1,7 @@
-Twitoff Bloom
+# Twitoff Bloom
 Twitoff Bloom is a web application built with Python and Flask that allows users to analyze and predict Twitter user behavior based on their tweets. This application integrates with the Twitter API to fetch user data and tweets, which are then processed and stored in a SQLite database. It also utilizes natural language processing (NLP) techniques to vectorize tweet text and perform machine learning-based predictions.
 
-Features
+## Features
 User Data Retrieval: Fetches user information and tweets from Twitter using the Twitter API.
 Data Storage: Stores user data and tweets in a SQLite database for efficient retrieval and analysis.
 Text Vectorization: Utilizes the spaCy library to vectorize tweet text, converting it into numerical representations.
@@ -19,11 +19,11 @@ Start the Flask server: flask run
 Usage
 Once the application is running, you can access it via your web browser at http://localhost:5000. Use the provided interface to interact with the application, retrieve user data, and make predictions based on tweet content.
 
-Contributing
+## Contributing
 Contributions to Twitoff Bloom are welcome! If you encounter any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request on GitHub.
 
-Credits
-This project was developed by [Your Name] as part of a [course, personal project, etc.]. It utilizes various open-source libraries and tools, including Flask, tweepy, spaCy, and scikit-learn.
+## Credits
+This project was developed by Adam as part of a Data-Science sprint project. It utilizes various open-source libraries and tools, including Flask, tweepy, spaCy, and scikit-learn.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## License
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details. file for more details.
