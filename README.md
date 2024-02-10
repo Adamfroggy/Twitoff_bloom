@@ -1,4 +1,4 @@
-#Twitoff Bloom
+Twitoff Bloom
 Twitoff Bloom is a web application built with Python and Flask that allows users to analyze and predict Twitter user behavior based on their tweets. This application integrates with the Twitter API to fetch user data and tweets, which are then processed and stored in a SQLite database. It also utilizes natural language processing (NLP) techniques to vectorize tweet text and perform machine learning-based predictions.
 
 Features
